@@ -1,0 +1,3 @@
+== Quelle est la version courante de Papyrus et comment l'obtenir?
+
+Version +{papyrusversion}+ et disponible à l'URL: {papyrusurl}

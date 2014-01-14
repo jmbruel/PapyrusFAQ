@@ -1,0 +1,43 @@
+//-================================================================================
+:papyrusurl: http://www.eclipse.org/papyrus/
+:papyrus: {papyrusurl}[Papyrus]
+:papyrusversion: 0.10.1
+:ingesup: http://www.ingesup.com/ecole-informatique/toulouse.html[INGESUP Toulouse]
+:author: J.-M. Bruel
+:version: 0.1
+:about: mailto:jbruel@gmail.com[{author}]
+:asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]indexterm:[AsciiDoc]
+:numbered:
+//-================================================================================
+
+= FAQ Papyrus
+
+FAQ (_**F**requently **A**sked **Q**uestions_) concernant {papyrus}. 
+
+[NOTE]
+====
+Réalisée en collaboration avec les élèves de l'école {ingesup}.
+====
+
+
+//-================================================================================
+// Généralités
+//-================================================================================
+
+include::version.txt[]
+
+:numbered!:
+== A propos...
+
+**********************************************************************
+Dernière MAJ : {localdate} - {localtime} +
+Document généré par {author} via {asciidoc} (version +8.6.8+) de 'Stuart Rackham'.
+Ce document est libre d'utilisation et géré par la 'Licence Creative Commons'. 
+ifdef::book[]
+image:88x31.png[scale=30]
+endif::book[]
+ifndef::book[]
+image:88x31.png[alt="Licence Creative  Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
+endif::book[]
+http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternité - Partage à l&#39;Identique 3.0 non transposé].
+**********************************************************************
