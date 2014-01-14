@@ -8,11 +8,14 @@
 :about: mailto:jbruel@gmail.com[{author}]
 :asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]indexterm:[AsciiDoc]
 :numbered:
+:images: /Users/bruel/dev/SysMLBook/images
 //-================================================================================
 
 = FAQ Papyrus
 
 FAQ (_**F**requently **A**sked **Q**uestions_) concernant {papyrus}. 
+
+image::Papyrus.gif[]
 
 [NOTE]
 ====
@@ -25,6 +28,8 @@ Réalisée en collaboration avec les élèves de l'école {ingesup}.
 //-================================================================================
 
 include::version.txt[]
+
+include::logo.txt[]
 
 :numbered!:
 == A propos...

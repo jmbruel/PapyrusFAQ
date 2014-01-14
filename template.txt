@@ -1,0 +1,13 @@
+== Question?
+// Auteur - 13/01/2014
+// décocher en fonction de votre niveau de confiance :
+//:status: {images}/icons/appbar.weather.sun.png
+//:status: {images}/icons/appbar.weather.overcast.png
+:status: {images}/icons/appbar.weather.thunder.png
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
+Réponse
+====

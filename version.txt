@@ -1,3 +1,12 @@
 == Quelle est la version courante de Papyrus et comment l'obtenir?
+// JMB - 13/01/2014
+:status: {images}/icons/appbar.weather.sun.png
+//:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.thunder.png
 
-Version +{papyrusversion}+ et disponible à l'URL: {papyrusurl}
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
+Version +{papyrusversion}+ et disponible à l'URL : {papyrusurl}.
+====
