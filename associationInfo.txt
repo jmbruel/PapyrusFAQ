@@ -1,12 +1,14 @@
-== Quelle est la version courante de Papyrus et comment l'obtenir?
+== Comment paramétrer les informations indiquées par défaut sur les associations ?
 // JMB - 13/01/2014
-:status: {images}/icons/appbar.weather.sun.png
-//:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.overcast.png
 //:status: {images}/icons/appbar.weather.thunder.png
 
 .Réponse
 [icon="{status}"]
 [NOTE]
 ====
-Version +{papyrusversion}+ et disponible à l'URL : {papyrusurl}.
+Il faut aller dans les +Préférences+ (+⌘,+ sous Mac OS X).
 ====
+
+image::0.10.1/AssociationLink.png[]
