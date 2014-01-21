@@ -1,4 +1,4 @@
-//-================================================================================
+﻿//-================================================================================
 :papyrusurl: http://www.eclipse.org/papyrus/
 :papyrus: {papyrusurl}[Papyrus]
 :papyrusversion: 0.10.1
@@ -34,6 +34,8 @@ include::logo.txt[]
 include::associationInfo.txt[]
 
 include::deco.txt[]
+
+include::noel_martins.txt[]
 
 :numbered!:
 == A propos...
