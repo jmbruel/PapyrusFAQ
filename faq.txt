@@ -22,9 +22,6 @@ image::Papyrus.gif[]
 Réalisée en collaboration avec les élèves de l'école {ingesup}.
 ====
 
-blablabla
-
-include::toto.txt[]
 
 //-================================================================================
 // Généralités
