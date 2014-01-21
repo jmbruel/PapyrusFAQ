@@ -1,12 +1,12 @@
 == Quel est cet étrange animal?
 // JMB - 13/01/2014
-//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.sun.png
 //:status: {images}/icons/appbar.weather.overcast.png
-:status: {images}/icons/appbar.weather.thunder.png
+//status: {images}/icons/appbar.weather.thunder.png
 
 .Réponse
 [icon="{status}"]
 [NOTE]
 ====
-Pas la moindre idée.
+Il s'agit d'un Ibis sacré, très célèbre oiseaux qui vivent souvent près du Nil en Egypte. Petite référence au nom de l'outil associé.
 ====
