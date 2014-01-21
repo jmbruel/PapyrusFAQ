@@ -21,7 +21,7 @@ image::Papyrus.gif[]
 ====
 Réalisée en collaboration avec les élèves de l'école {ingesup}.
 ====
-
+include::toto.txt[]
 
 //-================================================================================
 // Généralités
