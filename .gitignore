@@ -1,0 +1,10 @@
+# xcode folders
+DerivedData
+*.xcworkspace
+
+# mac files
+.DS_Store
+._*
+
+# windows files
+Thumbs.db
