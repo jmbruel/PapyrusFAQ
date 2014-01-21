@@ -1,0 +1,18 @@
+== Comment enlever les décorations des noms de certains éléments graphiques?
+// JMB - 13/01/2014
+//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.thunder.png
+
+Par exemple :
+
+image::0.10.1/deco.png[width="400"]
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
+Il faut aller dans les +Appearance+ de l'objet en question et décocher +Element icon+.
+
+image::0.10.1/deco-sol.png[width="200"]
+====
