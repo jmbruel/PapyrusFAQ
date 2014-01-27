@@ -1,4 +1,4 @@
-﻿//-================================================================================
+﻿//================================================================================
 :papyrusurl: http://www.eclipse.org/papyrus/
 :papyrus: {papyrusurl}[Papyrus]
 :papyrusversion: 0.10.1
@@ -9,7 +9,8 @@
 :asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]indexterm:[AsciiDoc]
 :numbered:
 :images: /Users/bruel/dev/SysMLBook/images
-//-================================================================================
+
+//================================================================================
 
 = FAQ Papyrus
 
@@ -21,7 +22,6 @@ image::Papyrus.gif[]
 ====
 Réalisée en collaboration avec les élèves de l'école {ingesup}.
 ====
-
 
 //-================================================================================
 // Généralités
