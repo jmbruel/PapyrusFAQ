@@ -37,6 +37,8 @@ include::deco.txt[]
 
 include::noel_martins.txt[]
 
+include::blanc_julien.txt[]
+
 :numbered!:
 == A propos...
 
