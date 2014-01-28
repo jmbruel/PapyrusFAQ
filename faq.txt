@@ -27,11 +27,13 @@ Réalisée en collaboration avec les élèves de l'école {ingesup}.
 // Généralités
 //-================================================================================
 
+== Généralités
+
+:leveloffset: +1
+
 include::version.txt[]
 
 include::logo.txt[]
-
-include::associationInfo.txt[]
 
 include::deco.txt[]
 
@@ -39,7 +41,37 @@ include::noel_martins.txt[]
 
 include::blanc_julien.txt[]
 
+:leveloffset: 0
+
+//-================================================================================
+// DC
+//-================================================================================
+
+== Diagramme de classe
+
+:leveloffset: +1
+
+include::associationInfo.txt[]
+
+== Comment faire une association ternaire en Papyrus ?
+
+Est-ce possible?
+
+:leveloffset: 0
+
+//-================================================================================
+// DS
+//-================================================================================
+
+== Diagramme de séquence
+
+:leveloffset: +1
+
 include::participants.txt[]
+
+include::actorDS.txt[]
+
+:leveloffset: 0
 
 :numbered!:
 == A propos...

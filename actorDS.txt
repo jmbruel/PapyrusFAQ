@@ -1,0 +1,21 @@
+== Comment faire apparaître un acteur (_stickman_) dans un DS ?
+// JMB - 28/01/2014
+//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.thunder.png
+
+
+Quand on essaye de copier/coller un acteur (créé lors du diagramme des UC par exemple),
+Papyrus ne nous laisse pas faire (cf. cette http://www.eclipse.org/forums/index.php/t/441403/[discussion]) :
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
+Il faut aussi en faire un +ConnectableElement+, c'est à dire
+qu'il ne faut pas choisir l'acteur dans le modèle, mais la classe
+qui se trouve au bout de l'association entre le cas d'utilisation
+et l'acteur!
+
+image::0.10.1/actorOK.png[width="400"]
+====

@@ -12,8 +12,9 @@ image::0.10.1/participants.png[width="400"]
 [icon="{status}"]
 [NOTE]
 ====
-Il faut absolument avoir un +connectableElement+, c'est à dir
+Il faut absolument avoir un +ConnectableElement+, c'est à dire
 un élément par exemple au bout d'une association, ou propriété
 d'un autre objet.
-//image::0.10.1/deco-sol.png[width="200"]
+
+image::0.10.1/participantsOK.png[width="400"]
 ====
