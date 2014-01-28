@@ -76,6 +76,8 @@ include::participants.txt[]
 
 include::actorDS.txt[]
 
+include::stickman.txt[]
+
 include::rey_paul.txt[]
 
 :leveloffset: 0
