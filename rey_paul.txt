@@ -1,0 +1,11 @@
+Q: Eclipse plante
+=================
+
+A: Prenez un papier et un crayon.
+
+Les flèches
+===========
+
+Les flèches pleines --------> sont des messages ( ~= INPUT).
+
+Les flèches - - - -> sont des réponses ( ~= OUTPUT).

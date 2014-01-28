@@ -1,4 +1,4 @@
-ï»¿//================================================================================
+//================================================================================
 :papyrusurl: http://www.eclipse.org/papyrus/
 :papyrus: {papyrusurl}[Papyrus]
 :papyrusversion: 0.10.1
@@ -14,20 +14,20 @@
 
 = FAQ Papyrus
 
-FAQ (_**F**requently **A**sked **Q**uestions_) concernant {papyrus}. 
+FAQ (_**F**requently **A**sked **Q**uestions_) concernant {papyrus}.
 
 image::Papyrus.gif[]
 
 [NOTE]
 ====
-RÃ©alisÃ©e en collaboration avec les Ã©lÃ¨ves de l'Ã©cole {ingesup}.
+Réalisée en collaboration avec les élèves de l'école {ingesup}.
 ====
 
 //-================================================================================
-// GÃ©nÃ©ralitÃ©s
+// Généralités
 //-================================================================================
 
-== GÃ©nÃ©ralitÃ©s
+== Généralités
 
 :leveloffset: +1
 
@@ -40,6 +40,8 @@ include::deco.txt[]
 include::noel_martins.txt[]
 
 include::blanc_julien.txt[]
+
+include::rey_paul.txt[]
 
 :leveloffset: 0
 
@@ -63,7 +65,7 @@ Est-ce possible?
 // DS
 //-================================================================================
 
-== Diagramme de sÃ©quence
+== Diagramme de séquence
 
 [NOTE]
 ====
@@ -82,14 +84,14 @@ include::actorDS.txt[]
 == A propos...
 
 **********************************************************************
-DerniÃ¨re MAJ : {localdate} - {localtime} +
-Document gÃ©nÃ©rÃ© par {author} via {asciidoc} (version +8.6.8+) de 'Stuart Rackham'.
-Ce document est libre d'utilisation et gÃ©rÃ© par la 'Licence Creative Commons'. 
+Dernière MAJ : {localdate} - {localtime} +
+Document généré par {author} via {asciidoc} (version +8.6.8+) de 'Stuart Rackham'.
+Ce document est libre d'utilisation et géré par la 'Licence Creative Commons'.
 ifdef::book[]
 image:88x31.png[scale=30]
 endif::book[]
 ifndef::book[]
-image:88x31.png[alt="Licence Creative  Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
+image:88x31.png[alt="Licence Creative Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
 endif::book[]
-http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons PaternitÃ© - Partage Ã  l&#39;Identique 3.0 non transposÃ©].
+http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternité - Partage à l&#39;Identique 3.0 non transposé].
 **********************************************************************
