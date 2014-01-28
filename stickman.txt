@@ -1,0 +1,15 @@
+== Comment faire apparaître un acteur comme un _stickman_ ?
+// JMB - 28/01/2014
+//:status: {images}/icons/appbar.weather.sun.png
+//:status: {images}/icons/appbar.weather.overcast.png
+:status: {images}/icons/appbar.weather.thunder.png
+
+Ce serait plus sylpathique d'avoir visuellement le logo de l'acteur
+quand un participant est un +actor+.
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
+Il semble que cette possibilité soit en cours d'intégration (cf. https://bugs.eclipse.org/bugs/show_bug.cgi?id=394907[ici]).
+====
