@@ -39,6 +39,8 @@ include::noel_martins.txt[]
 
 include::blanc_julien.txt[]
 
+include::participants.txt[]
+
 :numbered!:
 == A propos...
 
