@@ -65,6 +65,11 @@ Est-ce possible?
 
 == Diagramme de séquence
 
+[NOTE]
+====
+Il existe un tutoriel dédié à ce diagramme en Papyrus, disponible (en anglais) http://www.eclipse.org/papyrus/usersTutorials/resources/PapyrusTutorial_OnSequenceDiagrams_v0.1_d2010100.pdf[ici].
+====
+
 :leveloffset: +1
 
 include::participants.txt[]
