@@ -1,4 +1,4 @@
-== Comment faire apparaître un acteur (_stickman_) dans un DS ?
+== Comment faire apparaître un acteur dans un DS ?
 // JMB - 28/01/2014
 //:status: {images}/icons/appbar.weather.sun.png
 :status: {images}/icons/appbar.weather.overcast.png

@@ -20,14 +20,14 @@ image::Papyrus.gif[]
 
 [NOTE]
 ====
-Réalisée en collaboration avec les élèves de l'école {ingesup}.
+RÃ©alisÃ©e en collaboration avec les Ã©lÃ¨ves de l'Ã©cole {ingesup}.
 ====
 
 //-================================================================================
-// Généralités
+// GÃ©nÃ©ralitÃ©s
 //-================================================================================
 
-== Généralités
+== GÃ©nÃ©ralitÃ©s
 
 :leveloffset: +1
 
@@ -40,8 +40,6 @@ include::deco.txt[]
 include::noel_martins.txt[]
 
 include::blanc_julien.txt[]
-
-include::rey_paul.txt[]
 
 :leveloffset: 0
 
@@ -65,7 +63,7 @@ Est-ce possible?
 // DS
 //-================================================================================
 
-== Diagramme de séquence
+== Diagramme de sÃ©quence
 
 [NOTE]
 ====
@@ -78,20 +76,22 @@ include::participants.txt[]
 
 include::actorDS.txt[]
 
+include::rey_paul.txt[]
+
 :leveloffset: 0
 
 :numbered!:
-== A propos...
+== Ã€ propos...
 
 **********************************************************************
-Dernière MAJ : {localdate} - {localtime} +
-Document généré par {author} via {asciidoc} (version +8.6.8+) de 'Stuart Rackham'.
-Ce document est libre d'utilisation et géré par la 'Licence Creative Commons'.
+DerniÃ¨re MAJ : {localdate} - {localtime} +
+Document gÃ©nÃ©rÃ© par {author} via {asciidoc} (version +8.6.8+) de 'Stuart Rackham'.
+Ce document est libre d'utilisation et gÃ©rÃ© par la 'Licence Creative Commons'.
 ifdef::book[]
 image:88x31.png[scale=30]
 endif::book[]
 ifndef::book[]
 image:88x31.png[alt="Licence Creative Commons",style="border-width:0",link="http://creativecommons.org/licenses/by-sa/3.0/"]
 endif::book[]
-http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternité - Partage à l&#39;Identique 3.0 non transposé].
+http://creativecommons.org/licenses/by-sa/3.0/[licence Creative Commons Paternity - Partage Ã  l&#39;Identique 3.0 non transposÃ©].
 **********************************************************************
