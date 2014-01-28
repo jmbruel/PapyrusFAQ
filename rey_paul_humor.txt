@@ -1,3 +1,15 @@
 == Que faire quand eclipse plante?
+// Paul Rey 28/01/2014
+//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.thunder.png
 
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
 Prendre une feuille et un crayon!
+
+image::images/architecte.jpg[width="400"]
+====
