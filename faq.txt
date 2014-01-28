@@ -82,6 +82,14 @@ include::rey_paul.txt[]
 
 :leveloffset: 0
 
+== Humour
+
+:leveloffset: +1
+
+include::rey_paul_humor.txt[]
+
+:leveloffset: 0
+
 :numbered!:
 == À propos...
 
