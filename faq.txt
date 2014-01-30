@@ -7,8 +7,10 @@
 :version: 0.1
 :about: mailto:jbruel@gmail.com[{author}]
 :asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]indexterm:[AsciiDoc]
-:numbered:
+:numbered!:
 :images: /Users/bruel/dev/SysMLBook/images
+:toc:
+:toc-placement: manual
 
 //================================================================================
 
@@ -22,6 +24,15 @@ image::Papyrus.gif[]
 ====
 Réalisée en collaboration avec les élèves de l'école {ingesup}.
 ====
+
+//-================================================================================
+// TOC
+//-================================================================================
+
+== Table des matières
+.Liste des questions
+toc::[]
+:numbered:
 
 //-================================================================================
 // Généralités

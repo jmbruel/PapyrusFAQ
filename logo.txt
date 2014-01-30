@@ -9,5 +9,5 @@
 [icon="{status}"]
 [NOTE]
 ====
-Il s'agit d'un Ibis sacré, très célèbre oiseaux qui vivent souvent près du Nil en Egypte. Petite référence au nom de l'outil associé.
+Il s'agit d'un Ibis sacré, très célèbre oiseau qui vit souvent près du Nil en Egypte. Petite référence au nom de l'outil associé.
 ====

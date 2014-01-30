@@ -11,5 +11,7 @@ quand un participant est un +actor+.
 [icon="{status}"]
 [NOTE]
 ====
-Il semble que cette possibilité soit en cours d'intégration (cf. https://bugs.eclipse.org/bugs/show_bug.cgi?id=394907[ici]).
+Il semble que cette possibilité soit en cours d'intégration (cf. https://bugs.eclipse.org/bugs/show_bug.cgi?id=394907[ici])
+et q'il sera disponible dans la future version 
+d'eclipse (4.4 http://www.eclipse.org/downloads/packages/eclipse-standard-44-m4/lunam4[Luna]).
 ====
