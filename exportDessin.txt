@@ -1,0 +1,18 @@
+== Comment exporter les diagrammes comme des figures?
+// JMB - 13/01/2014
+//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.thunder.png
+
+Pour intégrer les diagrammes dans vos rapports ou autre documents,
+vous pouvez exporter les diagrammes sous la forme de dessins
+(format supportés au 18/02/2014 : +GIF+, +GMP+, +JPEG+, +JPG+, +SVG+, +PNG+, +PDF+).
+
+Pour cela, cliquer-droit sur la figure (mais pas sur un élémént!)
+et choisir +File+
+
+image::0.10.1/export2.png[width="600"]
+
+image::0.10.1/export1.png[width="400"]
+
+
