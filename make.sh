@@ -1,1 +1,1 @@
-rmasc faq.txt -a stylesheet=/Usres/bruel/dev/asciidoc/stylesheet/golo-jmb.css -a numbered
+rmasc faq.txt -a stylesheet=/Users/bruel/dev/asciidoc/stylesheets/golo-jmb.css -a numbered

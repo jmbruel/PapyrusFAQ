@@ -15,3 +15,4 @@ Il semble que cette possibilité soit en cours d'intégration (cf. https://bugs.
 et q'il sera disponible dans la future version 
 d'eclipse (4.4 http://www.eclipse.org/downloads/packages/eclipse-standard-44-m4/lunam4[Luna]).
 ====
+
