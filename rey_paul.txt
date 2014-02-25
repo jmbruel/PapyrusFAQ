@@ -1,4 +1,4 @@
-== Quelle est la différence entre une flèche pleine et une flèche pointillée ?
+﻿== Quelle est la différence entre une flèche pleine et une flèche pointillée ?
 // Paul Rey - 28/01/2014
 //:status: {images}/icons/appbar.weather.sun.png
 :status: {images}/icons/appbar.weather.overcast.png
@@ -11,4 +11,19 @@
 Les flèches pleines --> sont des messages (appel de méthode en Java par exemple).
 
 Les flèches - - - > sont des réponses (retour de la méthode).
+====
+
+== J'ai déplacé mes dossiers contenant mes projets Papyrus mais lorsque je l'ai ouvre, je ne retrouve pas l'interface de Papyrus, que dois-je faire ?
+// Paul Rey - 28/01/2014
+//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.thunder.png
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
+File > Open file... > (Se rendre dans le dossier du projet) Sélectionner (cliqué-glissé) tous les fichiers du projets -> "Ouvrir"
+
+Il est conseillé en parallèle de changer son espace de travail (Switch Workspace) vers ce nouvel espace.
 ====
