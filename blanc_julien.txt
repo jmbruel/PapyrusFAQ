@@ -1,0 +1,20 @@
+== Comment aligner des éléments ?
+// Julien Blanc - 28/01/2014
+// décocher en fonction de votre niveau de confiance :
+//:status: {images}/icons/appbar.weather.sun.png
+//:status: {images}/icons/appbar.weather.overcast.png
+:status: {images}/icons/appbar.weather.thunder.png
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+===
++Première manière:+
+Selectionner les éléments à aligner,
+Puis dans la barre d'outils, selectionner le bouton image::0.10.1/align1.PNG[],
+Et ensuite choisir le type d'alignement image::0.10.1/align2.PNG[].
+
++Deuxième manière:+
+Selectionner les éléments à aligner,
+Puis appuyer sur les touches +CTRL+ + _+Flèche+_.
+====
