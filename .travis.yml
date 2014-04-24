@@ -1,0 +1,15 @@
+language: python
+python:
+  - "2.7.5"
+# command to install dependencies
+#before_install: 
+#  - wget http://asciidoc-slidy2-backend-plugin.googlecode.com/files/slidy2-v1.0.3.zip
+install: 
+  - sudo apt-get install asciidoc -qq
+#  - asciidoc --backend install slidy2-v1.0.3.zip
+  - gem install asciidoctor
+# command to run tests
+script:  
+  - asciidoc --version ; asciidoctor --version
+  - ls -alF
+  - asciidoc -o faq.html faq.txt
