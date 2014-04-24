@@ -16,4 +16,4 @@ install:
 script:  
   - asciidoc --version ; asciidoctor --version
   - ls -alF
-  - asciidoc -o faq.html faq.txt
+  - asciidoctor faq.txt
