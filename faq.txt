@@ -93,6 +93,9 @@ include::stickman.txt[]
 
 include::rey_paul.txt[]
 
+// pb des flêches de retour
+// pb des paramètrtes multiples d'un message
+
 :leveloffset: 0
 
 == Humour

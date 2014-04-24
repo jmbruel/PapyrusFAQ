@@ -1,3 +1,7 @@
+#---------------------------------------------
+#	script for Travis Continuous Intregration
+# 	by JMB, 2014 -- Thanks for JMI for the initial script
+#---------------------------------------------
 language: python
 python:
   - "2.7.5"
