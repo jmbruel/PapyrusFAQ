@@ -6,9 +6,9 @@ install:
 script:
 - asciidoctor --version
 - ls -alF
-- asciidoctor faq.txt -o output/faq.html
+- asciidoctor -a icons -a linkcss! -a numbered faq.txt -o output/faq.html
 - ls -al output
--   echo -e "Starting to update doc\n"
+- echo -e "Starting to update doc\n"
 
   #copy data we're interested in to other place
 - cp -R output $HOME/output
