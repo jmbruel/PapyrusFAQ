@@ -92,7 +92,7 @@ include::actorDS.txt[]
 
 include::stickman.txt[]
 
-include::rey_paul.txt[]
+include::stickman2.txt[]
 
 // pb des flêches de retour
 // pb des paramètrtes multiples d'un message

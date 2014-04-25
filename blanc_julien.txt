@@ -8,7 +8,7 @@
 .Réponse
 [icon="{status}"]
 [NOTE]
-===
+====
 +Première manière:+
 Selectionner les éléments à aligner,
 Puis dans la barre d'outils, selectionner le bouton image::0.10.1/align1.PNG[],
@@ -16,5 +16,5 @@ Et ensuite choisir le type d'alignement image::0.10.1/align2.PNG[].
 
 +Deuxième manière:+
 Selectionner les éléments à aligner,
-Puis appuyer sur les touches +CTRL+ + _+Flèche+_.
+Puis appuyer sur les touches +CTRL+ + ->.
 ====
