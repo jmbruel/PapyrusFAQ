@@ -24,3 +24,4 @@ script:
   - ls -al faq.html
   - git add faq.html
   - git commit -m "travis html generation" 
+  - git push
