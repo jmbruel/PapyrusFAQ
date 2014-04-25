@@ -17,7 +17,7 @@ git clone --quiet --branch=doc https://${GH_TOKEN}@github.com/jmbruel/PapyrusFAQ
 cd doc
 cp -Rf $HOME/output/* ./output
 
-#add, commit and push files
+#add, commit and push files without provoking Continuous Integration
 git add -f .
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to doc -- [skip ci]"
 git push -fq origin doc > /dev/null
