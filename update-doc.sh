@@ -1,7 +1,7 @@
-#!/usr/bin/env sh
-
+#!/bin/bash
 echo "coucou"
-if [ -z "$TOTO" ]; then
+if [ "$TRAVIS_PULL_REQUEST" == "false" ]; 
+then
 	echo "coucou"
 	exit 1
 fi

@@ -6,7 +6,8 @@ install:
 script:
 - asciidoctor --version
 - ls -alF
-- bash update-doc.sh
+- whereis bash
+#- bash update-doc.sh
 
 #- asciidoctor -a icons -a linkcss! -a numbered faq.txt -o output/faq.html
 #- ls -al output
@@ -20,4 +21,4 @@ env:
     secure: cEaBJq02ObnaaiJ3cF0GKd/vbim29+c9KSWQHP0ct1pS/zqrSayx0dS/BLQUvQ0dGJODnjG4CmZlxD2GJGahajpCYWUgOvV9WMQX8Py4JILsP7U13Mj/a3ppxI6KFwK7lMVeO6VMch6ie0wmCvy+IxNMVsN+icaC8Cn9l62AqE4=
 
 after_success: 
-- ./update-doc.sh
+- bash update-doc.sh
