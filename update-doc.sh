@@ -1,5 +1,19 @@
+#!/bin/bash
+#set -e
+#cd $(dirname "$0")
+
+if [ -z "$TRAVIS_PULL_REQUEST" ]; then
+    echo 'This script is intended to be run only by Travis'
+    exit 1
+fi
+
+if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
+    echo 'This is a pull request.  Skipping gh-pages update'
+    exit 0
+fi
+
 #if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
-  echo -e "Starting to update doc\n"
+echo -e "Starting to update doc\n"
 
     #copy data we're interested in to other place
   # cp -R output $HOME/output
