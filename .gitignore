@@ -8,3 +8,6 @@ DerivedData
 
 # windows files
 Thumbs.db
+
+# output files
+faq.html

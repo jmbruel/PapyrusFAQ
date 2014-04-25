@@ -12,8 +12,12 @@ install:
   - sudo apt-get install asciidoc -qq
 #  - asciidoc --backend install slidy2-v1.0.3.zip
   - gem install asciidoctor
+  
 # command to run tests
 script:  
   - asciidoc --version ; asciidoctor --version
   - ls -alF
   - asciidoctor faq.txt
+  - ls -al faq.html
+  - git add faq.html
+  - git commit -m "travis html generation" 
