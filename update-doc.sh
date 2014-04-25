@@ -19,7 +19,7 @@ cp -Rf $HOME/output/* ./output
 
 #add, commit and push files
 git add -f .
-git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to doc"
+git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to doc -- [skip ci]"
 git push -fq origin doc > /dev/null
 
 echo -e "Done magic with output\n"
