@@ -11,7 +11,7 @@ git config --global user.name "Jean-Michel Bruel"
 git config --global push.default simple
 
 #using token clone gh-pages branch
-git clone --quiet --branch=doc https://${GH_TOKEN}@github.com/PapyrusFAQ.git  doc > /dev/null
+git clone --quiet --branch=doc https://${GH_TOKEN}@github.com/jmbruel/PapyrusFAQ.git  doc > /dev/null
 
 #go into diractory and copy data we're interested in to that directory
 cd doc
