@@ -6,6 +6,8 @@ install:
 script:
 - asciidoctor --version
 - ls -alF
+- bash update-doc.sh
+
 #- asciidoctor -a icons -a linkcss! -a numbered faq.txt -o output/faq.html
 #- ls -al output
 
