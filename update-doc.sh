@@ -15,7 +15,7 @@ git clone --quiet --branch=doc https://${GH_TOKEN}@github.com/jmbruel/PapyrusFAQ
 
 #go into diractory and copy data we're interested in to that directory
 cd doc
-cp -Rf $HOME/coverage/* .
+cp -Rf $HOME/output/* ./output
 
 #add, commit and push files
 git add -f .
