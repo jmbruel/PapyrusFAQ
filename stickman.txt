@@ -4,7 +4,7 @@
 //:status: {images}/icons/appbar.weather.overcast.png
 :status: {images}/icons/appbar.weather.thunder.png
 
-Ce serait plus sylpathique d'avoir visuellement le logo de l'acteur
+Ce serait plus sympathique d'avoir visuellement le logo de l'acteur
 quand un participant est un +actor+.
 
 .Réponse
