@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env sh
+
 echo "coucou"
 if [ -z "$TOTO" ]; then
 	echo "coucou"
