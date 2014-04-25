@@ -1,4 +1,4 @@
-if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
+#if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   echo -e "Starting to update doc\n"
 
   #copy data we're interested in to other place
@@ -10,7 +10,7 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   git config --global user.name "Jean-Michel Bruel"
   git config --global push.default simple
 
-  #using token clone gh-pages branch
+  #using token clone doc branch
   git clone --quiet --branch=doc https://${GH_TOKEN}@github.com/PapyrusFAQ.git  doc > /dev/null
 
   #go into diractory and copy data we're interested in to that directory
@@ -23,4 +23,4 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then
   git push -fq origin doc > /dev/null
 
   echo -e "Done magic with output\n"
-fi
+#fi
