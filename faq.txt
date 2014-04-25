@@ -12,7 +12,7 @@
 :toc:
 :toc-placement: manual
 :jmi: mailto:Jean-Michel.Inglebert@unuiv-tlse2.fr[J.-M. Inglebert]
-
+:travis: https://travis-ci.org[Travis]
 //================================================================================
 
 = FAQ Papyrus
@@ -112,7 +112,7 @@ include::rey_paul_humor.txt[]
 
 **********************************************************************
 Dernière MAJ : {localdate} - {localtime} +
-Document généré par {author} via {asciidoc} (version +8.6.8+) de 'Stuart Rackham'.
+Document généré en intégration continue (via {travis}) par {author} via {asciidoc} (version +8.6.8+) de 'Stuart Rackham'
 Ce document est libre d'utilisation et géré par la 'Licence Creative Commons'.
 ifdef::book[]
 image:88x31.png[scale=30]
