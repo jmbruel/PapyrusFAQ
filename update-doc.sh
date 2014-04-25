@@ -1,6 +1,6 @@
 #!/bin/bash
-#set -e
-#cd $(dirname "$0")
+set -e
+cd $(dirname "$0")
 
 if [ -z "$TRAVIS_PULL_REQUEST" ]; then
     echo 'This script is intended to be run only by Travis'
