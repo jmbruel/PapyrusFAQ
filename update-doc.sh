@@ -11,7 +11,7 @@ git config --global user.name "Jean-Michel Bruel"
 git config --global push.default simple
 
 #using token clone io pages branch
-git clone --quiet https://${GH_TOKEN}@github.com/jmbruel/jmbruel.gihtub.io.git  doc > /dev/null
+git clone --quiet https://${GH_TOKEN}@github.com/jmbruel/jmbruel.github.io.git  doc > /dev/null
 
 #go into directory and copy data we're interested in to that directory
 cd doc
