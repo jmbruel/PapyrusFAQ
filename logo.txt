@@ -1,6 +1,6 @@
 == Quel est cet étrange animal?
 // JMB - 13/01/2014
-:status: /Users/bruel/dev/SysMLBook/images/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.sun.png
 
 //:status: {images}/icons/appbar.weather.overcast.png
 //status: {images}/icons/appbar.weather.thunder.png
