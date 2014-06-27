@@ -15,7 +15,7 @@
 :travis: https://travis-ci.org[Travis]
 //================================================================================
 
-= FAQ Papyrus
+= FAQ Papyrus (ongoing)
 
 FAQ (_**F**requently **A**sked **Q**uestions_) concernant {papyrus}.
 
