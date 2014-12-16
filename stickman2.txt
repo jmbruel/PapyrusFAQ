@@ -3,14 +3,15 @@
 //:status: {images}/icons/appbar.weather.sun.png
 :status: {images}/icons/appbar.weather.overcast.png
 //:status: {images}/icons/appbar.weather.thunder.png
+:experimental:
 
 .Réponse
 [icon="{status}"]
 [NOTE]
 ====
-Les flèches pleines -> sont des messages (appel de méthode en Java par exemple	).
+Les flèches pleines -> sont des messages (appel de méthode en Java par exemple).
 
-Les flèches - - - > sont des réponses (retour de la méthode).
+Les flèches - - - > sont des réponses (retour de la méthode par exemple).
 ====
 
 
@@ -27,8 +28,7 @@ J'ai déplacé mon dossier contenant mes projets Papyrus mais lorsque je l'ouvre
 [icon="{status}"]
 [NOTE]
 ====
-File > Open file... > (Se rendre dans le dossier du projet) Sélectionner (cliquer-glisser) tous les fichiers du projets -> "Ouvrir"
+menu:File[Open file...] (Se rendre dans le dossier du projet) Sélectionner (cliquer-glisser) tous les fichiers du projets -> "Ouvrir"
 
 Il est conseillé au préalable de changer son espace de travail (Switch Workspace) vers ce nouvel espace.
 ====
-

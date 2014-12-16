@@ -4,7 +4,7 @@
 :papyrusversion: 0.10.1
 :ingesup: http://www.ingesup.com/ecole-informatique/toulouse.html[INGESUP Toulouse]
 :author: J.-M. Bruel
-:version: 0.1
+:version: 0.1.1
 :about: mailto:jbruel@gmail.com[{author}]
 :asciidoc: http://www.methods.co.nz/asciidoc[AsciiDoc]indexterm:[AsciiDoc]
 :numbered!:
@@ -14,6 +14,7 @@
 :jmi: mailto:Jean-Michel.Inglebert@univ-tlse2.fr[J.-M. Inglebert]
 :travis: https://travis-ci.org[Travis]
 //================================================================================
+include::definitions.txt[]
 
 = FAQ Papyrus (ongoing)
 
@@ -98,6 +99,10 @@ include::stickman2.txt[]
 // pb des paramètrtes multiples d'un message
 
 :leveloffset: 0
+
+== Diagramme des exigences
+
+include::refine.asc[leveloffset=+1]
 
 == Humour
 
