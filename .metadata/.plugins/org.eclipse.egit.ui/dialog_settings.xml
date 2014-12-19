@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/Users/bruel/dev/prodif/.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="file:////Users/bruel/dev/org.eclipse.papyrus"/>
+		<item value="file:////Users/bruel/dev/org.eclipse.papyrus/sandbox/Moka"/>
+		<item value="http://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/sandbox/Moka/org.eclipse.papyrus.moka.fuml"/>
+		<item value="https://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/sandbox/Moka"/>
+		<item value="http://git.eclipse.org/c/papyrus/org.eclipse.papyrus.git/tree/sandbox/Moka"/>
+	</list>
+	<section name="GitImportWizard">
+		<item value="false" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+	</section>
+</section>

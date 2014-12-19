@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6KCWMN_lEeOORI6St5ZaEw" name="model">
+  <packagedElement xmi:type="uml:Package" xmi:id="_glFDUN_nEeOORI6St5ZaEw" name="FMRadio">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_EY2TkN_mEeOORI6St5ZaEw" name="Utilisateur"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_K1854N_mEeOORI6St5ZaEw" name="Rappeler Station Mémorisée"/>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_eGKmUN_mEeOORI6St5ZaEw" name="Activity" classifierBehavior="_fVijgN_mEeOORI6St5ZaEw">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_fVijgN_mEeOORI6St5ZaEw" name="Interaction">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NWuYEN_nEeOORI6St5ZaEw" name="" type="_EY2TkN_mEeOORI6St5ZaEw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_U10xcd_oEeOORI6St5ZaEw" name="" type="_HNsH0N_oEeOORI6St5ZaEw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_NWtxAN_nEeOORI6St5ZaEw" name="" represents="_NWuYEN_nEeOORI6St5ZaEw" coveredBy="_6ZmU0N_oEeOORI6St5ZaEw _6Zni8d_oEeOORI6St5ZaEw _6Zni8N_oEeOORI6St5ZaEw _An-ioN_pEeOORI6St5ZaEw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_U10xcN_oEeOORI6St5ZaEw" name="" represents="_U10xcd_oEeOORI6St5ZaEw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_v2ap8N_oEeOORI6St5ZaEw" name="Lifeline" represents="_crLkIN_oEeOORI6St5ZaEw"/>
+        <lifeline xmi:type="uml:Lifeline" xmi:id="_ynXuoN_oEeOORI6St5ZaEw" name="Lifeline0" represents="_crLkIN_oEeOORI6St5ZaEw" coveredBy="_8eTXgN_oEeOORI6St5ZaEw _8eSwcN_oEeOORI6St5ZaEw _An_wwN_pEeOORI6St5ZaEw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_6ZmU0N_oEeOORI6St5ZaEw" name="ActionExecSpecStart" covered="_NWtxAN_nEeOORI6St5ZaEw" execution="_6Zni8N_oEeOORI6St5ZaEw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_6Zni8N_oEeOORI6St5ZaEw" name="ActionExecSpec" covered="_NWtxAN_nEeOORI6St5ZaEw" finish="_6Zni8d_oEeOORI6St5ZaEw" start="_6ZmU0N_oEeOORI6St5ZaEw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_An-ioN_pEeOORI6St5ZaEw" name="test_MessageSend" covered="_NWtxAN_nEeOORI6St5ZaEw" message="_An7fUN_pEeOORI6St5ZaEw"/>
+        <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_8eSwcN_oEeOORI6St5ZaEw" name="ActionExecSpec0" covered="_ynXuoN_oEeOORI6St5ZaEw" finish="_8eTXgN_oEeOORI6St5ZaEw" start="_An_wwN_pEeOORI6St5ZaEw"/>
+        <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_An_wwN_pEeOORI6St5ZaEw" name="test_MessageRecv" covered="_ynXuoN_oEeOORI6St5ZaEw" message="_An7fUN_pEeOORI6St5ZaEw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_6Zni8d_oEeOORI6St5ZaEw" name="ActionExecSpecFinish" covered="_NWtxAN_nEeOORI6St5ZaEw" execution="_6Zni8N_oEeOORI6St5ZaEw"/>
+        <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_8eTXgN_oEeOORI6St5ZaEw" name="ActionExecSpec0Finish" covered="_ynXuoN_oEeOORI6St5ZaEw" execution="_8eSwcN_oEeOORI6St5ZaEw"/>
+        <message xmi:type="uml:Message" xmi:id="_An7fUN_pEeOORI6St5ZaEw" name="test_Message" receiveEvent="_An_wwN_pEeOORI6St5ZaEw" sendEvent="_An-ioN_pEeOORI6St5ZaEw" signature="_Am8A0N_pEeOORI6St5ZaEw"/>
+      </ownedBehavior>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_PqC7AN_mEeOORI6St5ZaEw" name="forward/backward" memberEnd="_PqC7Ad_mEeOORI6St5ZaEw _PqC7BN_mEeOORI6St5ZaEw" navigableOwnedEnd="_PqC7BN_mEeOORI6St5ZaEw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PqC7Ad_mEeOORI6St5ZaEw" name="utilisateur" type="_EY2TkN_mEeOORI6St5ZaEw" association="_PqC7AN_mEeOORI6St5ZaEw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PqC7At_mEeOORI6St5ZaEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PqC7A9_mEeOORI6St5ZaEw" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_PqC7BN_mEeOORI6St5ZaEw" name="rappeler station mémorisée" type="_K1854N_mEeOORI6St5ZaEw" association="_PqC7AN_mEeOORI6St5ZaEw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PqC7Bd_mEeOORI6St5ZaEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PqC7Bt_mEeOORI6St5ZaEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QaBxAN_nEeOORI6St5ZaEw" name="AutoRadio">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_crLkIN_oEeOORI6St5ZaEw" name="" type="_-jTKkN_nEeOORI6St5ZaEw" aggregation="composite" association="_crNZUN_oEeOORI6St5ZaEw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_crLkId_oEeOORI6St5ZaEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_crLkIt_oEeOORI6St5ZaEw" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rNDuoN_nEeOORI6St5ZaEw" name="Audio"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_tUEecN_nEeOORI6St5ZaEw" name="Radio"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ms-1sN_nEeOORI6St5ZaEw" name="IHM">
+      <packagedElement xmi:type="uml:Class" xmi:id="_-jTKkN_nEeOORI6St5ZaEw" name="Clavier">
+        <ownedOperation xmi:type="uml:Operation" xmi:id="_Am8A0N_pEeOORI6St5ZaEw" name="test"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Fwo7AN_oEeOORI6St5ZaEw" name="Affichage"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_HNsH0N_oEeOORI6St5ZaEw" name="Commande">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_LZtU8N_rEeOORI6St5ZaEw" name="" type="_wv6L0N_qEeOORI6St5ZaEw" association="_LZwYQN_rEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LZtU8d_rEeOORI6St5ZaEw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LZtU8t_rEeOORI6St5ZaEw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NkcHIN_rEeOORI6St5ZaEw" name="" type="_-jTKkN_nEeOORI6St5ZaEw" association="_Nkd8UN_rEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NkcHId_rEeOORI6St5ZaEw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NkcHIt_rEeOORI6St5ZaEw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Oh3_wN_rEeOORI6St5ZaEw" name="affichage" type="_Fwo7AN_oEeOORI6St5ZaEw" association="_Oh4m0N_rEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Oh3_wd_rEeOORI6St5ZaEw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oh3_wt_rEeOORI6St5ZaEw" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_wv6L0N_qEeOORI6St5ZaEw" name="StockageStations">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_7gVogN_qEeOORI6St5ZaEw" name="" type="_44TPQN_qEeOORI6St5ZaEw" association="_7gWPkN_qEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7gVogd_qEeOORI6St5ZaEw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7gVogt_qEeOORI6St5ZaEw" value="8"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_44TPQN_qEeOORI6St5ZaEw" name="Station"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_7gWPkN_qEeOORI6St5ZaEw" name="" memberEnd="_7gWPkd_qEeOORI6St5ZaEw _7gVogN_qEeOORI6St5ZaEw">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_7gWPkd_qEeOORI6St5ZaEw" name="" type="_wv6L0N_qEeOORI6St5ZaEw" association="_7gWPkN_qEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7gWPkt_qEeOORI6St5ZaEw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7gWPk9_qEeOORI6St5ZaEw" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_GOP8sN_rEeOORI6St5ZaEw" name="" client="_Fwo7AN_oEeOORI6St5ZaEw" supplier="_44TPQN_qEeOORI6St5ZaEw"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_LZwYQN_rEeOORI6St5ZaEw" name="" memberEnd="_LZwYQd_rEeOORI6St5ZaEw _LZtU8N_rEeOORI6St5ZaEw">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_LZwYQd_rEeOORI6St5ZaEw" name="" type="_HNsH0N_oEeOORI6St5ZaEw" association="_LZwYQN_rEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LZwYQt_rEeOORI6St5ZaEw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LZwYQ9_rEeOORI6St5ZaEw" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Nkd8UN_rEeOORI6St5ZaEw" name="" memberEnd="_Nkd8Ud_rEeOORI6St5ZaEw _NkcHIN_rEeOORI6St5ZaEw">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Nkd8Ud_rEeOORI6St5ZaEw" name="" type="_HNsH0N_oEeOORI6St5ZaEw" association="_Nkd8UN_rEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nkd8Ut_rEeOORI6St5ZaEw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nkd8U9_rEeOORI6St5ZaEw" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Oh4m0N_rEeOORI6St5ZaEw" name="" memberEnd="_Oh4m0d_rEeOORI6St5ZaEw _Oh3_wN_rEeOORI6St5ZaEw">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Oh4m0d_rEeOORI6St5ZaEw" name="" type="_HNsH0N_oEeOORI6St5ZaEw" association="_Oh4m0N_rEeOORI6St5ZaEw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Oh4m0t_rEeOORI6St5ZaEw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oh4m09_rEeOORI6St5ZaEw" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_crNZUN_oEeOORI6St5ZaEw" name="" memberEnd="_crNZUd_oEeOORI6St5ZaEw _crLkIN_oEeOORI6St5ZaEw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_crNZUd_oEeOORI6St5ZaEw" name="" type="_QaBxAN_nEeOORI6St5ZaEw" association="_crNZUN_oEeOORI6St5ZaEw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_crNZUt_oEeOORI6St5ZaEw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_crNZU9_oEeOORI6St5ZaEw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>

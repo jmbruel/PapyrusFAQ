@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="" key="/RAdioReveil/model.uml:defaultpackagename"/>
+	<list key="/RAdioReveil/model.uml:searchpaths">
+		<item value="java"/>
+		<item value="*"/>
+		<item value="osgi.*"/>
+		<item value="datatype"/>
+	</list>
+	<list key="/RAdioReveil/model.uml:creationpaths">
+		<item value="java.* ;  ; java"/>
+		<item value="org.eclipse.papyrus.* ;  ; *"/>
+		<item value="org.eclipse.* ; org.eclipse.papyrus.* ; *"/>
+		<item value="org.osgi.* ;  ; osgi.*"/>
+		<item value="datatype.* ;  ; datatype"/>
+	</list>
+</section>

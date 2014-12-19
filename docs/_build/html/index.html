@@ -1,0 +1,488 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>FAQ Papyrus &mdash; faq 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="faq 0.1 documentation" href="#" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li><a href="#">faq 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="faq-papyrus">
+<h1>FAQ Papyrus<a class="headerlink" href="#faq-papyrus" title="Permalink to this headline">¶</a></h1>
+<div class="line-block">
+<div class="line">J.-M. Bruel</div>
+</div>
+<p>FAQ (<strong>*F</strong>requently <strong>A</strong>sked <strong>Q</strong>uestions*) concernant
+<a class="reference external" href="http://www.eclipse.org/papyrus/">Papyrus</a>.</p>
+<p><img alt="Papyrus" src="Papyrus.gif" /></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td>Réalisée en collaboration avec les
+élèves de l&#8217;école <a class="reference external" href="http://www.ingesup.com/ecole-informatique/toulouse.html">INGESUP
+Toulouse</a>
+ainsi que <a class="reference external" href="mailto:Jean-Michel&#46;Inglebert&#37;&#52;&#48;univ-tlse2&#46;fr">J<span>&#46;</span>-M<span>&#46;</span>
+Inglebert</a>.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="table-des-matieres">
+<h2>Table des matières<a class="headerlink" href="#table-des-matieres" title="Permalink to this headline">¶</a></h2>
+<p>Liste des questions</p>
+<ul class="simple">
+<li><a class="reference external" href="#_table_des_mati_res">Table des matières</a></li>
+<li><a class="reference external" href="#_g_n_ralit_s">1. Généralités</a></li>
+<li><ul class="first">
+<li><a class="reference external" href="#_quelle_est_la_version_courante_de_papyrus_et_comment_l_obtenir">1.1. Quelle est la version courante de Papyrus et comment
+l’obtenir?</a></li>
+<li><a class="reference external" href="#_quel_est_cet_trange_animal">1.2. Quel est cet étrange
+animal?</a></li>
+<li><a class="reference external" href="#_comment_enlever_les_d_corations_des_noms_de_certains_l_ments_graphiques">1.3. Comment enlever les décorations des noms de certains
+éléments
+graphiques?</a></li>
+<li><a class="reference external" href="#_comment_aligner_des_l_ments">1.4. Comment aligner des éléments
+?</a></li>
+<li><a class="reference external" href="#_comment_exporter_les_diagrammes_comme_des_figures">1.5. Comment exporter les diagrammes comme des
+figures?</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#_diagramme_de_classe">2. Diagramme de classe</a></li>
+<li><ul class="first">
+<li><a class="reference external" href="#_comment_param_trer_les_informations_indiqu_es_par_d_faut_sur_les_associations">2.1. Comment paramétrer les informations indiquées par défaut sur
+les associations
+?</a></li>
+<li><a class="reference external" href="#_comment_faire_une_association_ternaire_en_papyrus">2.2. Comment faire une association ternaire en Papyrus
+?</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#_diagramme_de_s_quence">3. Diagramme de séquence</a></li>
+<li><ul class="first">
+<li><a class="reference external" href="#_je_n_arrive_pas_attacher_un_participant_objet_une_classe_particuli_re">3.1. Je n’arrive pas à attacher un participant (objet) à une
+classe
+particulière?</a></li>
+<li><a class="reference external" href="#_comment_faire_appara_tre_un_acteur_dans_un_ds">3.2. Comment faire apparaître un acteur dans un DS
+?</a></li>
+<li><a class="reference external" href="#_comment_faire_appara_tre_un_acteur_comme_un_em_stickman_em">3.3. Comment faire apparaître un acteur comme un *stickman*
+?</a></li>
+<li><a class="reference external" href="#_quelle_est_la_diff_rence_entre_une_fl_che_pleine_et_une_fl_che_pointill_e">3.4. Quelle est la différence entre une flèche pleine et une
+flèche pointillée
+?</a></li>
+<li><a class="reference external" href="#_d_placements_de_dossier">3.5. Déplacements de dossier</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#_humour">4. Humour</a></li>
+<li><ul class="first">
+<li><a class="reference external" href="#_que_faire_quand_eclipse_plante">4.1. Que faire quand eclipse
+plante?</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#__propos">À propos…</a></li>
+</ul>
+</div>
+<div class="section" id="generalites">
+<h2>1. Généralités<a class="headerlink" href="#generalites" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="quelle-est-la-version-courante-de-papyrus-et-comment-lobtenir">
+<h3>1.1. Quelle est la version courante de Papyrus et comment l’obtenir?<a class="headerlink" href="#quelle-est-la-version-courante-de-papyrus-et-comment-lobtenir" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td>Réponse
+Version <tt class="docutils literal"><span class="pre">0.10.1</span></tt> et disponible à
+l’URL :
+<a class="reference external" href="http://www.eclipse.org/papyrus/">http://www.eclipse.org/papyrus/</a>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="quel-est-cet-etrange-animal">
+<h3>1.2. Quel est cet étrange animal?<a class="headerlink" href="#quel-est-cet-etrange-animal" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td>Réponse
+Il s’agit d’un Ibis sacré, très
+célèbre oiseau qui vit souvent près
+du Nil en Egypte. Petite référence
+au nom de l’outil associé.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="comment-enlever-les-decorations-des-noms-de-certains-elements-graphiques">
+<h3>1.3. Comment enlever les décorations des noms de certains éléments graphiques?<a class="headerlink" href="#comment-enlever-les-decorations-des-noms-de-certains-elements-graphiques" title="Permalink to this headline">¶</a></h3>
+<p>Par exemple :</p>
+<p><img alt="deco" src="0.10.1/deco.png" /></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td><p class="first">Réponse
+Il faut aller dans les
+<tt class="docutils literal"><span class="pre">Appearance</span></tt> de l’objet en
+question et décocher
+<tt class="docutils literal"><span class="pre">Element</span> <span class="pre">icon</span></tt>.</p>
+<p class="last"><img alt="deco sol" src="0.10.1/deco-sol.png" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="comment-aligner-des-elements">
+<h3>1.4. Comment aligner des éléments ?<a class="headerlink" href="#comment-aligner-des-elements" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td><p class="first">Réponse
+<tt class="docutils literal"><span class="pre">Première</span> <span class="pre">manière:</span></tt> Selectionner
+les éléments à aligner, Puis dans la
+barre d’outils, selectionner le
+bouton image::0.10.1/align1.PNG[],
+Et ensuite choisir le type
+d’alignement
+image::0.10.1/align2.PNG[].</p>
+<p class="last"><tt class="docutils literal"><span class="pre">Deuxième</span> <span class="pre">manière:</span></tt> Selectionner
+les éléments à aligner, Puis appuyer
+sur les touches <tt class="docutils literal"><span class="pre">CTRL</span></tt> + →.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="comment-exporter-les-diagrammes-comme-des-figures">
+<h3>1.5. Comment exporter les diagrammes comme des figures?<a class="headerlink" href="#comment-exporter-les-diagrammes-comme-des-figures" title="Permalink to this headline">¶</a></h3>
+<p>Pour intégrer les diagrammes dans vos rapports ou autre documents, vous
+pouvez exporter les diagrammes sous la forme de dessins (format
+supportés au 18/02/2014 : <tt class="docutils literal"><span class="pre">GIF</span></tt>, <tt class="docutils literal"><span class="pre">GMP</span></tt>, <tt class="docutils literal"><span class="pre">JPEG</span></tt>, <tt class="docutils literal"><span class="pre">JPG</span></tt>, <tt class="docutils literal"><span class="pre">SVG</span></tt>,
+<tt class="docutils literal"><span class="pre">PNG</span></tt>, <tt class="docutils literal"><span class="pre">PDF</span></tt>).</p>
+<p>Pour cela, cliquer-droit sur la figure (mais pas sur un élémént!) et
+choisir <tt class="docutils literal"><span class="pre">File</span></tt></p>
+<p><img alt="export2" src="0.10.1/export2.png" /></p>
+<p><img alt="export1" src="0.10.1/export1.png" /></p>
+</div>
+</div>
+<div class="section" id="diagramme-de-classe">
+<h2>2. Diagramme de classe<a class="headerlink" href="#diagramme-de-classe" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="comment-parametrer-les-informations-indiquees-par-defaut-sur-les-associations">
+<h3>2.1. Comment paramétrer les informations indiquées par défaut sur les associations ?<a class="headerlink" href="#comment-parametrer-les-informations-indiquees-par-defaut-sur-les-associations" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td>Réponse
+Il faut aller dans les
+<tt class="docutils literal"><span class="pre">Préférences</span></tt> (<tt class="docutils literal"><span class="pre">⌘,</span></tt> sous Mac OS
+X).</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="AssociationLink" src="0.10.1/AssociationLink.png" /></p>
+</div>
+<div class="section" id="comment-faire-une-association-ternaire-en-papyrus">
+<h3>2.2. Comment faire une association ternaire en Papyrus ?<a class="headerlink" href="#comment-faire-une-association-ternaire-en-papyrus" title="Permalink to this headline">¶</a></h3>
+<p>Est-ce possible?</p>
+</div>
+</div>
+<div class="section" id="diagramme-de-sequence">
+<h2>3. Diagramme de séquence<a class="headerlink" href="#diagramme-de-sequence" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td>Il existe un tutoriel dédié à ce
+diagramme en Papyrus, disponible (en
+anglais)
+<a class="reference external" href="http://www.eclipse.org/papyrus/usersTutorials/resources/PapyrusTutorial_OnSequenceDiagrams_v0.1_d2010100.pdf">ici</a>.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="je-narrive-pas-a-attacher-un-participant-objet-a-une-classe-particuliere">
+<h3>3.1. Je n’arrive pas à attacher un participant (objet) à une classe particulière?<a class="headerlink" href="#je-narrive-pas-a-attacher-un-participant-objet-a-une-classe-particuliere" title="Permalink to this headline">¶</a></h3>
+<p>Par exemple :</p>
+<p><img alt="participants" src="0.10.1/participants.png" /></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td><p class="first">Réponse
+Il faut absolument avoir un
+<tt class="docutils literal"><span class="pre">ConnectableElement</span></tt>, c’est à dire
+un élément par exemple au bout d’une
+association, ou propriété d’un autre
+objet.</p>
+<p class="last"><img alt="participantsOK" src="0.10.1/participantsOK.png" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="comment-faire-apparaitre-un-acteur-dans-un-ds">
+<h3>3.2. Comment faire apparaître un acteur dans un DS ?<a class="headerlink" href="#comment-faire-apparaitre-un-acteur-dans-un-ds" title="Permalink to this headline">¶</a></h3>
+<p>Quand on essaye de copier/coller un acteur (créé lors du diagramme des
+UC par exemple), Papyrus ne nous laisse pas faire (cf. cette
+<a class="reference external" href="http://www.eclipse.org/forums/index.php/t/441403/">discussion</a>) :</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td><p class="first">Réponse
+Il faut aussi en faire un
+<tt class="docutils literal"><span class="pre">ConnectableElement</span></tt>, c’est à dire
+qu’il ne faut pas choisir l’acteur
+dans le modèle, mais la classe qui
+se trouve au bout de l’association
+entre le cas d’utilisation et
+l’acteur!</p>
+<p class="last"><img alt="actorOK" src="0.10.1/actorOK.png" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="comment-faire-apparaitre-un-acteur-comme-un-stickman">
+<h3>3.3. Comment faire apparaître un acteur comme un <em>stickman</em> ?<a class="headerlink" href="#comment-faire-apparaitre-un-acteur-comme-un-stickman" title="Permalink to this headline">¶</a></h3>
+<p>Ce serait plus sympathique d’avoir visuellement le logo de l’acteur
+quand un participant est un <tt class="docutils literal"><span class="pre">actor</span></tt>.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td>Réponse
+Il semble que cette possibilité soit
+en cours d’intégration (cf.
+<a class="reference external" href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=394907">ici</a>)
+et q’il sera disponible dans la
+future version d’eclipse (4.4
+<a class="reference external" href="http://www.eclipse.org/downloads/packages/eclipse-standard-44-m4/lunam4">Luna</a>).</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="quelle-est-la-difference-entre-une-fleche-pleine-et-une-fleche-pointillee">
+<h3>3.4. Quelle est la différence entre une flèche pleine et une flèche pointillée ?<a class="headerlink" href="#quelle-est-la-difference-entre-une-fleche-pleine-et-une-fleche-pointillee" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td><p class="first">Réponse
+Les flèches pleines → sont des
+messages (appel de méthode en Java
+par exemple ).</p>
+<p class="last">Les flèches - - - &gt; sont des
+réponses (retour de la méthode).</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="deplacements-de-dossier">
+<h3>3.5. Déplacements de dossier<a class="headerlink" href="#deplacements-de-dossier" title="Permalink to this headline">¶</a></h3>
+<p>J’ai déplacé mon dossier contenant mes projets Papyrus mais lorsque je
+l’ouvre, je ne retrouve pas l’interface de Papyrus, que dois-je faire ?</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td><p class="first">Réponse
+File &gt; Open file… &gt; (Se rendre dans
+le dossier du projet) Sélectionner
+(cliquer-glisser) tous les fichiers
+du projets → &#8220;Ouvrir&#8221;</p>
+<p class="last">Il est conseillé au préalable de
+changer son espace de travail
+(Switch Workspace) vers ce nouvel
+espace.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="humour">
+<h2>4. Humour<a class="headerlink" href="#humour" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="que-faire-quand-eclipse-plante">
+<h3>4.1. Que faire quand eclipse plante?<a class="headerlink" href="#que-faire-quand-eclipse-plante" title="Permalink to this headline">¶</a></h3>
+<table border="1" class="docutils">
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Note</td>
+<td><p class="first">Réponse
+Prendre une feuille et un crayon!</p>
+<p class="last"><img alt="architecte" src="images/architecte.jpg" /></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="a-propos">
+<h2>À propos…<a class="headerlink" href="#a-propos" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line">Dernière MAJ : 2014-04-29 - 10:12:37 CEST</div>
+<div class="line-block">
+<div class="line">Document généré en intégration continue (via</div>
+</div>
+</div>
+<p><a class="reference external" href="https://travis-ci.org">Travis</a>) par J.-M. Bruel via
+<a class="reference external" href="http://www.methods.co.nz/asciidoc">AsciiDoc</a> (version <tt class="docutils literal"><span class="pre">8.6.8</span></tt>) de
+<em>Stuart Rackham</em> Ce document est libre d’utilisation et géré par la
+<em>Licence Creative Commons</em>. <a class="reference external" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Licence Creative Commons" src="images/88x31.png" /></a> <a class="reference external" href="http://creativecommons.org/licenses/by-sa/3.0/">licence Creative
+Commons Paternity - Partage à l&#8217;Identique 3.0 non
+transposé</a>.</p>
+<p>Last updated 2014-04-25 18:32:16 CEST</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">FAQ Papyrus</a><ul>
+<li><a class="reference internal" href="#table-des-matieres">Table des matières</a></li>
+<li><a class="reference internal" href="#generalites">1. Généralités</a><ul>
+<li><a class="reference internal" href="#quelle-est-la-version-courante-de-papyrus-et-comment-lobtenir">1.1. Quelle est la version courante de Papyrus et comment l’obtenir?</a></li>
+<li><a class="reference internal" href="#quel-est-cet-etrange-animal">1.2. Quel est cet étrange animal?</a></li>
+<li><a class="reference internal" href="#comment-enlever-les-decorations-des-noms-de-certains-elements-graphiques">1.3. Comment enlever les décorations des noms de certains éléments graphiques?</a></li>
+<li><a class="reference internal" href="#comment-aligner-des-elements">1.4. Comment aligner des éléments ?</a></li>
+<li><a class="reference internal" href="#comment-exporter-les-diagrammes-comme-des-figures">1.5. Comment exporter les diagrammes comme des figures?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#diagramme-de-classe">2. Diagramme de classe</a><ul>
+<li><a class="reference internal" href="#comment-parametrer-les-informations-indiquees-par-defaut-sur-les-associations">2.1. Comment paramétrer les informations indiquées par défaut sur les associations ?</a></li>
+<li><a class="reference internal" href="#comment-faire-une-association-ternaire-en-papyrus">2.2. Comment faire une association ternaire en Papyrus ?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#diagramme-de-sequence">3. Diagramme de séquence</a><ul>
+<li><a class="reference internal" href="#je-narrive-pas-a-attacher-un-participant-objet-a-une-classe-particuliere">3.1. Je n’arrive pas à attacher un participant (objet) à une classe particulière?</a></li>
+<li><a class="reference internal" href="#comment-faire-apparaitre-un-acteur-dans-un-ds">3.2. Comment faire apparaître un acteur dans un DS ?</a></li>
+<li><a class="reference internal" href="#comment-faire-apparaitre-un-acteur-comme-un-stickman">3.3. Comment faire apparaître un acteur comme un <em>stickman</em> ?</a></li>
+<li><a class="reference internal" href="#quelle-est-la-difference-entre-une-fleche-pleine-et-une-fleche-pointillee">3.4. Quelle est la différence entre une flèche pleine et une flèche pointillée ?</a></li>
+<li><a class="reference internal" href="#deplacements-de-dossier">3.5. Déplacements de dossier</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#humour">4. Humour</a><ul>
+<li><a class="reference internal" href="#que-faire-quand-eclipse-plante">4.1. Que faire quand eclipse plante?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#a-propos">À propos…</a></li>
+</ul>
+</li>
+</ul>
+
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li><a href="#">faq 0.1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2014, JM Bruel.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

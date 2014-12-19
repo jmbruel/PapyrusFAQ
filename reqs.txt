@@ -1,0 +1,18 @@
+== Je n'arrive pas à voir les détail des exiences!
+// JMB - 15/12/2014
+//:status: {images}/icons/appbar.weather.sun.png
+:status: {images}/icons/appbar.weather.overcast.png
+//:status: {images}/icons/appbar.weather.thunder.png
+
+.Les exigences par défaut
+image::{images}/{papyrusversion}/reqs.png[width=300]
+
+.Réponse
+[icon="{status}"]
+[NOTE]
+====
+Il faut aller dans...
+
+.Résultat final
+image::{images}/{papyrusversion}/reqs-details.png[]
+====

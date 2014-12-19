@@ -8,5 +8,5 @@
 [icon="{status}"]
 [NOTE]
 ====
-Version +{papyrusversion}+ et disponible à l'URL : {papyrusurl}.
+Version `{papyrusversion}` et disponible à l'URL : {papyrusurl}.
 ====

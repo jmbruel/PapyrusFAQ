@@ -1,0 +1,493 @@
+ /* Font Definitions */
+@font-face
+	{font-family:Arial;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Century Schoolbook";
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:Consolas;
+	panose-1:2 11 6 9 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Wingdings 2";
+	panose-1:5 2 1 2 1 5 7 7 7 7;}
+@font-face
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+h1
+	{margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:2.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:16.0pt;
+	font-family:"Century Schoolbook";
+	font-variant:small-caps;
+	color:#244583;
+	letter-spacing:.25pt;}
+h2
+	{margin-top:30.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Century Schoolbook";
+	color:#4F81BD;}
+h3
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Century Schoolbook";
+	color:#4F81BD;
+	letter-spacing:.25pt;
+	font-weight:normal;}
+h4
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;
+	font-weight:normal;}
+h5
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;
+	font-weight:normal;
+	font-style:italic;}
+h6
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#3667C3;
+	font-weight:bold;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:9.0pt;
+	font-family:"Century Schoolbook";
+	color:#3667C3;
+	font-weight:bold;
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Century Schoolbook";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:11.0pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Century Schoolbook";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:5.0pt;
+	margin-left:22.0pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Century Schoolbook";}
+p.MsoNormalIndent, li.MsoNormalIndent, div.MsoNormalIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+p.MsoFootnoteText, li.MsoFootnoteText, div.MsoFootnoteText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+p.MsoCaption, li.MsoCaption, div.MsoCaption
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:right;
+	font-size:8.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;
+	font-weight:bold;}
+p.MsoTof, li.MsoTof, div.MsoTof
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+span.MsoFootnoteReference
+	{vertical-align:super;}
+p.MsoTitle, li.MsoTitle, div.MsoTitle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:24.0pt;
+	font-family:"Century Schoolbook";
+	font-variant:small-caps;
+	color:#FE8637;
+	letter-spacing:.5pt;}
+p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:12.0pt;
+	font-family:"Century Schoolbook";
+	color:#575F6D;
+	letter-spacing:.25pt;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{color:#D2611C;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#3B435B;
+	text-decoration:underline;}
+em
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";
+	color:#2B2F36;
+	letter-spacing:.5pt;
+	font-weight:bold;}
+code
+	{font-family:"Courier New";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+span.MsoPlaceholderText
+	{color:gray;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:36.0pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+p.MsoQuote, li.MsoQuote, div.MsoQuote
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;
+	font-style:italic;}
+p.MsoIntenseQuote, li.MsoIntenseQuote, div.MsoIntenseQuote
+	{margin-top:0cm;
+	margin-right:46.8pt;
+	margin-bottom:10.0pt;
+	margin-left:46.8pt;
+	text-align:justify;
+	line-height:125%;
+	border:none;
+	padding:0cm;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;}
+span.MsoSubtleEmphasis
+	{color:#E65B01;
+	font-style:italic;}
+span.MsoIntenseEmphasis
+	{color:#E65B01;
+	text-transform:uppercase;
+	letter-spacing:.5pt;
+	font-style:italic;}
+span.MsoSubtleReference
+	{color:#3667C3;
+	font-weight:bold;
+	font-style:italic;}
+span.MsoIntenseReference
+	{color:#3667C3;
+	text-transform:uppercase;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+span.MsoBookTitle
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";
+	font-variant:small-caps;
+	color:black;
+	letter-spacing:.5pt;}
+p.MsoBibliography, li.MsoBibliography, div.MsoBibliography
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;}
+span.Titre1Car
+	{font-family:"Century Schoolbook";
+	font-variant:small-caps;
+	color:#244583;
+	letter-spacing:.25pt;
+	font-weight:bold;}
+span.Titre2Car
+	{font-family:"Century Schoolbook";
+	color:#4F81BD;
+	font-weight:bold;}
+span.TitreCar
+	{font-family:"Century Schoolbook";
+	font-variant:small-caps;
+	color:#FE8637;
+	letter-spacing:.5pt;}
+span.Sous-titreCar
+	{color:#575F6D;
+	letter-spacing:.25pt;
+	font-style:italic;}
+span.TextedebullesCar
+	{font-family:Tahoma;
+	color:#414751;}
+span.PieddepageCar
+	{color:#414751;}
+span.En-tteCar
+	{color:#414751;}
+span.Titre3Car
+	{font-family:"Century Schoolbook";
+	color:#4F81BD;
+	letter-spacing:.25pt;}
+span.Titre4Car
+	{font-family:"Century Schoolbook";
+	color:#E65B01;}
+span.Titre5Car
+	{color:#E65B01;
+	font-style:italic;}
+span.Titre6Car
+	{color:#E65B01;
+	font-weight:bold;}
+span.Titre7Car
+	{color:#E65B01;
+	font-weight:bold;
+	font-style:italic;}
+span.Titre8Car
+	{color:#3667C3;
+	font-weight:bold;}
+span.Titre9Car
+	{color:#3667C3;
+	font-weight:bold;
+	font-style:italic;}
+span.CitationCar
+	{color:#414751;
+	font-style:italic;}
+span.CitationintenseCar
+	{color:#E65B01;}
+p.Titre1, li.Titre1, div.Titre1
+	{margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:14.0pt;
+	font-family:Cambria;
+	color:#365F91;
+	font-weight:bold;}
+p.titre2, li.titre2, div.titre2
+	{margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:115%;
+	font-size:13.0pt;
+	font-family:Cambria;
+	color:#4F81BD;
+	font-weight:bold;}
+span.Titre1Car0
+	{font-family:Cambria;
+	color:#365F91;
+	font-weight:bold;}
+span.titre2Car0
+	{font-family:Cambria;
+	color:#4F81BD;
+	font-weight:bold;}
+span.NotedebasdepageCar
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";
+	color:#414751;}
+p.Encadr, li.Encadr, div.Encadr
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	line-height:125%;
+	font-size:8.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;
+	font-weight:bold;}
+p.Legend, li.Legend, div.Legend
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	font-size:8.0pt;
+	font-family:"Century Schoolbook";
+	color:#E65B01;
+	font-weight:bold;}
+span.LgendeCar
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";
+	color:#E65B01;
+	font-weight:bold;}
+span.LegendCar
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";
+	color:#E65B01;
+	font-weight:bold;}
+p.Puce1, li.Puce1, div.Puce1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:18.0pt;
+	text-align:justify;
+	text-indent:-18.0pt;
+	line-height:115%;
+	font-size:10.0pt;
+	font-family:"Century Schoolbook";
+	color:#414751;}
+span.ParagraphedelisteCar
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";
+	color:#414751;}
+span.Puce1Car
+	{font-family:"\FF2D\FF33 \FF30\660E\671D";
+	color:#414751;}
+.MsoChpDefault
+	{font-size:11.0pt;
+	font-family:"Century Schoolbook";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+@page WordSection1
+	{size:21.0cm 841.95pt;
+	margin:70.9pt 92.15pt 70.9pt 92.15pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+
