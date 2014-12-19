@@ -21,6 +21,6 @@ ls -al index.html
 #add, commit and push files without provoking Continuous Integration
 git add -f index.html
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed to io pages -- [skip ci]"
-git push -fq origin gh-pages > /dev/null
+git push -fq origin master > /dev/null
 
 echo -e "Done magic with output\n"
