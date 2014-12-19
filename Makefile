@@ -36,7 +36,7 @@ pattern/%.png: pattern/%.plantuml
 	@echo '==> Compiling plantUML files to generate PNG'
 	java -jar plantuml.jar $<
 
-%.html: %.$(EXT) $(DEP)
+$(OUTPUT)/%.html: %.$(EXT) $(DEP)
 	@echo '==> Compiling asciidoc files with Asciidoctor to generate HTML'
 	$(DOCTOR) -a toc2 -b html5 -a numbered -a eleve $<
 
@@ -50,44 +50,3 @@ pattern/%.png: pattern/%.plantuml
 	-a data-uri -a deckjs_theme=$(DECK) \
 	-a icons -a iconsdir=$(ICONSDIR) \
 	-a images=$(IMAGESDIR) -a prof -o $@ $<
-
-%.reveal.html: %.$(EXT)  $(DEP)
-	@echo '==> Compiling asciidoc files to generate reveal.js'
-	$(DOCTOR) -T ../asciidoctor-backends/haml/reveal/ -a slides -a data-uri -a deckjs_theme=$(DECK) -a icons -a iconsdir=$(ICONSDIR) -a stylesheet=$(STYLE) -a images=$(IMAGESDIR) -o $@ $<
-
-%.xml: %.$(EXT)
-	@echo '==> Compiling asciidoc files to generate DocBook'
-	$(DOCTOR) -b docbook -a docbook $< -o $@
-
-%.wiki: %.xml
-	@echo '==> Compiling DocBook files with Pandoc to generate MediaWiki'
-	$(PANDOC) -f docbook -t mediawiki -s $< -o $@
-
-roadmap.html: $(MAIN).$(EXT)
-	@echo '==> Compiling asciidoc files to generate standalone file for Google Drive'
-	$(DOCTOR) -b html5 -a numbered -a data-uri $< -o $@
-
-%-sujet.html: %.$(EXT) $(DEP)
-	@echo '==> Compiling asciidoc files with Asciidoctor to generate HTML'
-	$(DOCTOR) -a compact -a theme=compact -b html5 -a numbered -a eleve \
-	-a data-uri $< -o $@
-
-%-prof.html: %.$(EXT) $(DEP)
-	@echo '==> Compiling asciidoc files with Asciidoctor to generate HTML'
-	$(DOCTOR) -a prof -a correction -a theme=compact -b html5 -a numbered \
-	-a data-uri $< -o $@
-
-cours:
-	cp main.html index.html
-
-cours2:
-	$(DOCTOR) -a toc2 -b html5 -a numbered -a stylesheet=$(STYLE) -a data-uri -o cours2.html wip.asc
-
-test:
-	$(DOCTOR) -a toc2 -b html5 -a numbered -a stylesheet=$(STYLE) -o wip2.html wip.asc
-	$(DOCTOR) -T /Users/bruel/dev/asciidoctor-backends/haml/deckjs/ -a slides \
-	-a data-uri -a deckjs_theme=$(DECK) -a icons -a iconsdir=$(ICONSDIR) \
-	-a images=$(IMAGESDIR) -a prof -a stylesheet=$(STYLE) -o wip2.deckjs.html wip.asc
-
-javadoc : $(CLASSFILES)
-	javadoc -version -author -doclet org.asciidoctor.Asciidoclet -docletpath doclet/asciidoclet-1.5.0.jar -overview -d $(DOC) $(SOURCEFILES)
