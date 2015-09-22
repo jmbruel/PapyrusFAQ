@@ -1,3 +1,6 @@
+:definitions:
+:slidesurl: http://jmbhome.herokuapp.com/talks
+
 //Layouts
 :standHeight: 250
 :standScreen: 500
@@ -17,16 +20,21 @@
 :deckjs: http://houqp.github.io/asciidoc-deckjs/[deckjs]
 :deckjsite: http://houqp.github.io/asciidoc-deckjs/[deckjs]
 :deckjsweb: http://houqp.github.io/asciidoc-deckjs/[deckjs]
+:devs: link:http://fr.wikipedia.org/wiki/Discrete_Event_System_Specification[DEVS]
 :docbook: http://www.docbook.org/[DocBook]
 :doors: http://www-03.ibm.com/software/products/fr/fr/ratidoor/[DOORS(TM)]
 :ea: http://www.sparxsystems.com.au/products/mdg/tech/sysml/index.html[Enterprise Architect]
 :eclipse: http://www.eclipse.org[eclipse]indexterm:[eclipse]
 :eclipseDocStyleGuide: https://wiki.eclipse.org/Eclipse_Doc_Style_Guide[Eclipse Doc Style Guide]
+:emf: https://www.eclipse.org/modeling/emf/[EMF]
 :gemoc: http://gemoc.org/[GEMOC]
 :git: link:http://git-scm.com/[Git]
 :github: link:https://github.com/[GitHub]
 :gherkin: link:http://cukes.info/gherkin.html[Gherkin]
 :grafcet: http://fr.wikipedia.org/wiki/Grafcet[Grafcet]
+:gvle: link:http://www.vle-project.org/wiki/GVLE[GVLE]
+:idm2014: link:http://devlog.cnrs.fr/idm2014orga[IDM'2014]
+:inra: link:http://www.inra.fr/[INRA]
 :java: https://www.java.com/fr/[Java]
 :javadoc: link:http://fr.wikipedia.org/wiki/Javadoc[Javadoc]
 :knxweb: http://www.knx.fr/[KNX]
@@ -46,16 +54,20 @@
 :omg: http://www.omg.org[OMG(TM)]indexterm:[OMG]
 :lomg: http://www.omg.org[l'OMG(TM)]indexterm:[OMG]
 :OSLC: http://open-services.net/[OSCL]
+:obeo: link:http://www.obeo.fr/[Obeo]
 :pandoc: http://johnmacfarlane.net/pandoc/[Pandoc]
 :papyrus: http://www.eclipse.org/papyrus/[Papyrus]
 :papyrusversion: 1.0.1
 :plantumlweb: http://plantuml.sourceforge.net/[plantUML]
 :plantuml: http://plantuml.sourceforge.net/[plantUML]
 :polarsys: http://polarsys.org/[Polarsys]
+:ptolemy: link:http://ptolemy.eecs.berkeley.edu/[Ptolemy]
 :rapportPotier: http://www.industrie.gouv.fr/logiciel-embarque/Rapport-BGLE-final.pdf[Rapport Potier]
 :rcp: http://wiki.eclipse.org/index.php/Rich_Client_Platform[RCP]
+:record: link:http://record.toulouse.inra.fr/[RECORD]
 :redmine: http://www.redmine.org/[redmine]
 :remodd: http://www.cs.colostate.edu/remodd/v1/[ReMoDD]
+:reqtify: Reqtify
 :rhapsody: http://www-142.ibm.com/software/products/us/en/ratirhap[Rhapsody]indexterm:[Rhapsody]
 :robotml: http://en.wikipedia.org/wiki/RobotML[RobotML]
 :rtaw: http://www.realtimeatwork.com/[RTaW]indexterm:[RTaW]
@@ -63,7 +75,7 @@
 :sart: http://fr.wikipedia.org/wiki/Structured_Analysis_for_Real_Time[SADT/SART]
 :semco: http://www.semcomdt.org/[SEMCO]
 :simulink: http://fr.mathworks.com/products/simulink/?nocookie=true[Simulink]
-:sirius: http://www.obeo.fr/fr/produits/eclipse-sirius[Sirius]
+:sirius: link:https://www.eclipse.org/proposals/modeling.sirius/[Sirius]
 :slidy2: http://www.w3.org/Talks/Tools/Slidy2/[W3C HTML Slidy]
 :sosym: http://www.sosym.org/[SoSyM]
 :svn: link:https://subversion.apache.org/[Subversion]
@@ -82,40 +94,57 @@
 :yuml: http://yuml.me/[yuml]
 
 // personnes et institutions
+:adil: mailto:anwar@univ-tlse2.fr[Adil Anwar]
 :afis: http://www.afis.fr/[AFIS](((AFIS)))
 :agusti: Agusti Canals
 :ambler: http://www.agilemodeling.com/[Scott W. Ambler]
 :ap: André Péninou
+:bc: mailto:benoit.combemale@irisa.fr[Benoît Combemale]
+:bastide: Rémi Bastide
+:beylot: André-Luc Beylot
 :cabot: http://jordicabot.com/[Jordi Cabot]
+:cb: mailto:cedric.brun@obeo.fr[Cédric Brun]
 :cealist: http://www-list.cea.fr/[CEA Tech List]
+:dayde: Michel Daydé
 :dl: http://www.dept-info.ups-tlse.fr/index.php?option=com_content&view=article&id=294&Itemid=697&lang=fr[Master DL-SI]
 :dulas: mailto:jcdulas@phoenix-int.com[Jean-Charles Dulas]
 :eia: http://www.eciaonline.org/eiastandards/[EIA](((EIA)))
 :fast: http://fr.wikipedia.org/wiki/Analyse_fonctionnelle_(conception)[FAST](((FAST)))
+:fn: mailto:florian.noyrit@cea.fr[Florian Noyrit]
+:gq: mailto:gauthier.quesnel@toulouse.inra.fr[Gauthier Quesnel]
+:hanachi: Chiab Hanachi
+:hr: mailto:Helene.Raynal@toulouse.inra.fr[Hélène Raynal]
 :ieee: http://www.ieee.org/[IEEE](((IEEE)))
 :incose: http://www.incose.org/[INCOSE]indexterm:[INCOSE](((INCOSE)))
 :iso: http://www.iso.org/[ISO](((ISO)))
 :irit: http://www.irit.fr[IRIT](((IRIT)))
+:jessel: Jean-Pierre Jessel
 :lirit: http://www.irit.fr[l'IRIT](((IRIT)))
 :iut: http://www.iut-blagnac.fr/[IUT de Blagnac]
 :liut: http://www.iut-blagnac.fr/[l'IUT de Blagnac]
+:jeissel: Jean-Mierre Jeissel
 :jg: mailto:jacob.geisel@irit.fr[Jacob Geisel]
-:jmb: mailto:jbruel@gmail.com[JMB]
+:jmb: mailto:bruel@irit.fr[Jean-Michel Bruel]
 :jmi: Jean-Michel Inglebert
 :jmimail: jean-michel.inglebert@univ-tlse2.fr
+:joly: Philippe Joly
 :karina: Karina Aguilar
 :loic: mailto:loic.fejoz@realtimeatwork.com[Loïc Féjoz]
 :nasa: http://www.nasa.gov/[NASA]
 :nico: mailto:nicolas.belloir@univ-pau.fr[Nicolas Belloir]
 :nonne: Laurent Nonne
 :or: Olivier Roques
+:pd: mailto:Pascal.Dayre@enseeiht.fr[Pascal Dayre]
 :phoenix: http://www.phoenix-int.com/[Phoenix Integration]
 :prfc: http://www.dotnetguru2.org/proques/index.php[Pascal Roques]
 :pdss:  Pierre de Saqui Sannes
 :reveal: link:http://lab.hakim.se/reveal-js[reveal.js]
 :rf: mailto:raphael.faudou@atos.net[Raphaël Faudou]
 :rdp: Réseaux de Petri
+:sanza: Cédric Sanza
 :scrum: link:http://fr.wikipedia.org/wiki/Scrum_(m%C3%A9thode)[Scrum]
+:sd: mailto:saadia.dhouib@cea.fr[Saâdia Dhouib]
+:sibilla: Michèle Sibilla
 :sysmlfrance: http://www.sysml-france.fr[SysML-France]indexterm:[SysML-France]
 :tim: mailto:Tim.Weilkiens@oose.de[Tim Weilkiens]
 :univ-tlse: http://www.univ-toulouse.fr[Université de Toulouse]
@@ -130,6 +159,9 @@
 :lups: http://www.univ-tlse3.fr[l'UPS]
 :upsti: http://www.upsti.fr/[UPSTI]
 :lupsti: http://www.upsti.fr/[l'UPSTI]
+
+//------- Normes et Références
+:arp4754a: http://sunnyday.mit.edu/16.355/arp4754a.pdf[ARP4754A]
 
 // SysML diagrams
 :act: act(((act)))
